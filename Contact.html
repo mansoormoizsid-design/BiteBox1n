@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <!-- Colouring * -->
+    <style>
+      span{
+         color: red;
+      }
+    </style>
+</head>
+<body>
+    <h1>
+        Contact us
+    </h1>
+     <!-- navigation bar -->
+      <header>
+     <nav>
+        <a href="Index.html">Home |</a>
+        <a href="About.html">About |</a>
+        <a href="Contact.html">Contact |</a>
+        <a href="Menu.html">Menu</a>
+     </nav>
+     </header>
+     <br>
+   <main>
+      <hr>
+      <h2>
+         Customer Registeration And Order Form :
+      </h2>
+      <hr>
+      <form action="#" method="">
+         <!-- full name -->
+         <label for="fullname">Full Name :</label> 
+         <input type="text" name="fullname" 
+         id="fullname" 
+         placeholder="enter full name"
+         required
+         ><span>*</span>
+         <br><br>
+         <!-- Email Address -->
+         <label for="email">Email Address :</label>
+         <input type="email" id="email" name="email"
+         placeholder="Enter Email Address"
+         required
+         ><span>*</span>
+         <br><br>
+         <!-- password -->
+         <label for="password">Password :</label>
+         <input type="password" id="password" name="password"
+         placeholder="Enter Password"
+         required
+         ><span>*</span>
+         <br><br>
+         <!-- Phone Number -->
+         <label for="phone">Phone Number :</label>
+         <input type="tel" id="phone" name="phone"
+         placeholder="Enter Phone Number"
+         required
+         ><span>*</span>
+         <br><br>
+         <!-- Quantity -->
+         <label for="quantity">Quantity :</label>
+         <input type="number" id="quantity" name="quantity"
+         placeholder="Enter Quantity"
+         required
+         ><span>*</span>
+         <br><br>
+         <!-- preffered delivery date -->
+          <label for="ddate">Delivery Date :</label>
+          <input type="date" name="ddate" id="ddate"
+          placeholder="Select Date"
+          >
+          <br><br>
+          <!-- Select Food Item -->
+          <label for="food">Select Food Item :</label>
+          <select name="food" id="food">
+          <option value="veg pizza">Veg Pizza</option>
+          <option value="cheese burger">Cheese Burger</option>
+          <option value="white sause pasta">White Sause Pasta</option>
+          <option value="veg grilled sandwitch">Veg Grilled Sandwitch</option>
+          <option value="chocolate brownie">Chocolate Brownie</option>
+         </select>
+         <br><br>
+         <!-- Payment Method -->
+         <h3>
+            Payment Method :
+         </h3>
+         <input type="radio" name="Payment" id="cash">
+         <label for="cash">Cash</label>
+
+         <input type="radio" name="Payment" id="card">
+         <label for="card">Card</label>
+
+         <input type="radio" name="Payment" id="upi">
+         <label for="upi">UPI</label>
+         <br><br>
+         <!-- Extras -->
+         <h3>
+            Extras :
+         </h3>
+         <input type="checkbox" name="extras" id="cheese">
+         <label for="cheese">Cheese</label>
+
+         <input type="checkbox" name="extras" id="drink">
+         <label for="drink">Drink</label>
+
+         <input type="checkbox" name="extras" id="dessert">
+         <label for="dessert">Dessert</label>
+
+         <br><br>
+         <!-- Delivery Instructions -->
+          <h3>
+            Delivery Instructions :
+          </h3>
+          <label for="Address">Address :</label>
+          <textarea name="Address" id="Address" rows="5" cols="40"></textarea>
+          <br><br>
+         <button type="submit">Place Order</button>
+         <button type="reset">Clear Form</button>
+
+
+
+      </form>
+   </main>
+
+
+
+
+
+
+
+
+
+
+     <h2>
+        Visit Our Website :
+     </h2>
+     <p>
+        <a href="http://www.google.com">Visit Google</a>
+     </p>
+     <br><br>
+</body>
+</html>
